@@ -541,6 +541,7 @@ struct mdp_layer_commit_v1_32 {
 	compat_caddr_t		frc_info;
 	uint32_t		bl_level; /* BL level to be updated in commit */
 	uint32_t		reserved[MDP_LAYER_COMMIT_V1_PAD];
+	uint32_t 		dummy;
 };
 
 struct mdp_layer_commit32 {
